@@ -1,92 +1,60 @@
-@media (min-width: 768px){
-    body.container {
-        max-width:95% !important;
-    }
+.container-fluid {
+    height:1500px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-size: 1.1em;
 }
-
-@media (min-width: 992px){
-    body.container {
-        max-width:95% !important;
-    }
+.date-range {
+    font-size: .75em;
 }
+.larger-badge {
+    /*font-size: .85em !important;*/
+}
+/*******Header*******/
+.header {
+    background-color: #303E4C;
+    color: white;
+    padding: 4em;
+}
+.name {
+    font-size: 3em;
+    text-align: center;
+}
+.photo {
+    display:block;
+    height:200px;
+    width:200px;
+}
+.contact-info div {
+}
+/**************/
 
-body {
+/*******Content*******/
+.content {
+    padding: 3em;
+    background-color: white;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 1.875em;
+}
+/**************/
+
+/*******Experience*******/
+.experience-content {
+}
+/**************/
+
+/*******Personal*******/
+.personal-content .row.skill{
+
+}
+.personal-content {
+    background-color: #F1F1F3;
+}
+.personal-content > .row {
     padding: 10px;
 }
-
-.name {
-    height:25%;
-    width:100%;
-    text-align: center;
-    font-size: 60px;
-    margin-top:10px;
+.reference-container {
+    padding: 5px;
 }
-
-.experience-column {
-    height: 100%;
-}
-
-.personal-information-column {
-    height:100%;
-}
-
-.section-content {
-    border-top: 1px solid black;
-}
-
-.section-title {
-    font-size: 20px;
-    font-weight: bold;
-    height: 30px;
-}
-/*experience column*/
-.technical-skills .row  {
-    margin: 5px 5px 10px 5px;
-}
-.technical-skills .skill-header  {
-    font-weight: bold;
-}
-
-.technical-skills .skill-content  {
-}
-
-.technical-skills {
-}
-
-.experience .section-content > div {
-margin: 5px;
-}
-
-.experience-column .experience .experience-header .experience-title {
-    font-weight: bold;
-}
-
-/*personal information column*/
-#contact-link {
-font-size: small;
-font-color: lightblue;
-}
-
-.personal-information-column > div {
-    height:15%;
-}
-
-.personal-information-column .section-title {
-}
-
-.personal-information-column .contact-info .section-content div {
-    margin: 5px;
-}
-
-.personal-information-column .education .section-content div {
-    margin: 5px;
-}
-
-
-.personal-information-column .references .section-content .reference-container {
-    margin: 5px 5px 20px 5px;
-}
-
-.references {
-
-}
+/**************/
