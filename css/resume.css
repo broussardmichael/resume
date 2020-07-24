@@ -1,60 +1,64 @@
+@media only screen and (min-width: 801px) {
+    .header {
+        padding: 4em;
+    }
+
+    .content {
+        padding: 3em;
+    }
+
+    .contact-info div {
+        text-align: end !important;
+    }
+}
+
 .container-fluid {
-    height:1500px;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    height: 1500px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     font-size: 1.1em;
 }
+
 .date-range {
     font-size: .75em;
 }
-.larger-badge {
-    /*font-size: .85em !important;*/
-}
-/*******Header*******/
+
 .header {
     background-color: #303E4C;
     color: white;
-    padding: 4em;
 }
+
 .name {
     font-size: 3em;
     text-align: center;
 }
-.photo {
-    display:block;
-    height:200px;
-    width:200px;
-}
-.contact-info div {
-}
-/**************/
 
-/*******Content*******/
+.photo {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.contact-info div {
+    text-align: center;
+}
+
 .content {
-    padding: 3em;
     background-color: white;
 }
+
 .section-title {
     font-weight: bold;
     font-size: 1.875em;
 }
-/**************/
 
-/*******Experience*******/
-.experience-content {
-}
-/**************/
-
-/*******Personal*******/
-.personal-content .row.skill{
-
-}
 .personal-content {
     background-color: #F1F1F3;
 }
+
 .personal-content > .row {
     padding: 10px;
 }
+
 .reference-container {
     padding: 5px;
 }
-/**************/
