@@ -1,4 +1,4 @@
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 1024px) {
     .header {
         padding: 4em;
     }
@@ -13,7 +13,7 @@
 
     .personal-content > .row {
          padding: 10px;
-     }
+    }
 
     .product-experience-section > .row {
         padding: 10px;
@@ -21,6 +21,16 @@
 
     .reference-container {
         padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-title {
+        text-align: center !important;
+    }
+
+    .contact-info div {
+        text-align: center !important;
     }
 }
 
@@ -64,26 +74,16 @@
     width: 200px;
 }
 
-.contact-info div {
-    text-align: center;
-}
-
 .content {
     background-color: white;
 }
 
 .section-title {
     font-weight: bold;
+    text-align: left;
 }
 
 .personal-content {
     background-color: #F1F1F3;
 }
 
-.product-name {
-    text-align: center;
-}
-
-.product-experience-section .col-12:nth-of-type(even) {
-    text-align: center;
-}
