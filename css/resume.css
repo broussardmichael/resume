@@ -10,12 +10,39 @@
     .contact-info div {
         text-align: end !important;
     }
+
+    .personal-content > .row {
+         padding: 10px;
+     }
+
+    .product-experience-section > .row {
+        padding: 10px;
+    }
+
+    .reference-container {
+        padding: 5px;
+    }
+}
+
+.font-size-1 {
+    font-size: 3em;
+}
+
+.font-size-2 {
+    font-size: 1.875em;
+}
+
+.font-size-3 {
+    font-size: 1.25em;
+}
+
+.font-size-4 {
+    font-size: 1.1em;
 }
 
 .container-fluid {
     height: 1500px;
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    font-size: 1.1em;
 }
 
 .date-range {
@@ -28,7 +55,6 @@
 }
 
 .name {
-    font-size: 3em;
     text-align: center;
 }
 
@@ -48,17 +74,16 @@
 
 .section-title {
     font-weight: bold;
-    font-size: 1.875em;
 }
 
 .personal-content {
     background-color: #F1F1F3;
 }
 
-.personal-content > .row {
-    padding: 10px;
+.product-name {
+    text-align: center;
 }
 
-.reference-container {
-    padding: 5px;
+.product-experience-section .col-12:nth-of-type(even) {
+    text-align: center;
 }
